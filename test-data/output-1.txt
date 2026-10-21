@@ -1,0 +1,2 @@
+SUCCESS # ez az urhajo
+SUCCESS # ez meg a tuzeles, itt az a trukk ugye hogy  1nek allitottuk a secondary failt, tehat ha azt probalta volna elsutni akkor failt kapnank
