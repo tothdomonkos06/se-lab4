@@ -17,4 +17,21 @@ class TorpedoStoreTest {
         // Assert
         assertEquals(true, result);
     }
+
+    @Test
+    void empty_mag(){
+        TorpedoStore store = new TorpedoStore(1,1);
+
+        //csin
+
+        boolean result = store.fire(1);
+        int toltet = store.getTorpedoCount();
+
+        //ell
+
+        assertEquals(false, result);
+        assertEquals(1, toltet);
+    }
+
+
 }
